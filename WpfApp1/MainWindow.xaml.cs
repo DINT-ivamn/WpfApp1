@@ -24,5 +24,19 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            SaludoTextBlock.Text = "Hola mundo!";
+            NombreTextBox.Text = "";
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            if (NombreTextBox.Text != "")
+            {
+                SaludoTextBlock.Text = $"Hola {NombreTextBox.Text}";
+            }
+        }
     }
 }
