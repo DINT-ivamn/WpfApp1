@@ -29,6 +29,7 @@ namespace WpfApp1
         {
             SaludoTextBlock.Text = "Hola mundo!";
             NombreTextBox.Text = "";
+            // Ei
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
