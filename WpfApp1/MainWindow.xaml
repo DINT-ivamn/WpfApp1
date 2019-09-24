@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Hola mundo" Height="450" Width="800" Icon="128.ico">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
         <TextBlock x:Name="SaludoTextBlock" HorizontalAlignment="Left" Margin="251,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="299" Text="Hola mundo!" FontSize="48" Foreground="#FFBD1515"/>
         <TextBlock HorizontalAlignment="Left" Margin="251,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Nombre:"/><LineBreak/><Run/></TextBlock>
         <TextBox x:Name="NombreTextBox" HorizontalAlignment="Left" Height="23" Margin="251,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="299"/>
